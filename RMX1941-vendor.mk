@@ -1539,7 +1539,7 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
     EmCamera \
-    OppoEngineerMode \
+    EngineerMode \
     SensorHub \
     TeeService \
     android.hardware.drm@1.3-service.widevine \

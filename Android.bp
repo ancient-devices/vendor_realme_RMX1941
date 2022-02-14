@@ -17,9 +17,9 @@ android_app_import {
 }
 
 android_app_import {
-	name: "OppoEngineerMode",
+	name: "EngineerMode",
 	owner: "realme",
-	apk: "proprietary/priv-app/OppoEngineerMode/OppoEngineerMode.apk",
+	apk: "proprietary/priv-app/EngineerMode/EngineerMode.apk",
 	certificate: "platform",
 	dex_preopt: {
 		enabled: false,

@@ -44,6 +44,44 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+	name: "libldacBT_abr",
+	owner: "realme",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/lib/libldacBT_abr.so"],
+		},
+		android_arm64: {
+			srcs: ["proprietary/lib64/libldacBT_abr.so"],
+		},
+	},
+	compile_multilib: "both",
+	check_elf_files: false,
+	prefer: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "libldacBT_enc",
+	owner: "realme",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/lib/libldacBT_enc.so"],
+		},
+		android_arm64: {
+			srcs: ["proprietary/lib64/libldacBT_enc.so"],
+		},
+	},
+	compile_multilib: "both",
+	check_elf_files: false,
+	prefer: true,
+}
+
+cc_prebuilt_library_shared {
 	name: "libem_audio_jni",
 	owner: "realme",
 	strip: {

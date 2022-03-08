@@ -1543,6 +1543,7 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX1941/proprietary/vendor/lib64/vendor.trustonic.teeregistry@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.trustonic.teeregistry@1.0.so
 
 PRODUCT_PACKAGES += \
+    ImsService \
     EmCamera \
     EngineerMode \
     SensorHub \

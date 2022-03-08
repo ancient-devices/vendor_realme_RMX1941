@@ -58,15 +58,10 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX1941/proprietary/lib64/libMcRegistry.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libMcRegistry.so \
     vendor/realme/RMX1941/proprietary/lib64/libTeeClient.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libTeeClient.so \
     vendor/realme/RMX1941/proprietary/lib64/libTeeServiceJni.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libTeeServiceJni.so \
-<<<<<<< HEAD
-    vendor/realme/RMX1941/proprietary/lib64/libaptXHD_encoder.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libaptXHD_encoder.so \
-    vendor/realme/RMX1941/proprietary/lib64/libaptX_encoder.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libaptX_encoder.so \
     vendor/realme/RMX1941/proprietary/lib64/libldacBT_abr.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libldacBT_abr.so \
     vendor/realme/RMX1941/proprietary/lib64/libldacBT_enc.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libldacBT_enc.so \
     vendor/realme/RMX1941/proprietary/lib64/libem_support_jni.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libem_support_jni.so \
     vendor/realme/RMX1941/proprietary/lib64/libmtk_vt_wrapper.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libmtk_vt_wrapper.so \
-=======
->>>>>>> a3cfc8e (RMX1941: move libAptX to system_ext)
     vendor/realme/RMX1941/proprietary/lib64/libmtkaudio_utils.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libmtkaudio_utils.so \
     vendor/realme/RMX1941/proprietary/lib64/libmtkavenhancements.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libmtkavenhancements.so \
     vendor/realme/RMX1941/proprietary/lib64/libmtklimiter.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libmtklimiter.so \
@@ -1123,8 +1118,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX1941/proprietary/vendor/lib64/libaedv.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaedv.so \
     vendor/realme/RMX1941/proprietary/vendor/lib64/libakm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libakm.so \
     vendor/realme/RMX1941/proprietary/vendor/lib64/libalipay_factory.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libalipay_factory.so \
-    vendor/realme/RMX1941/proprietary/vendor/lib64/libaptXHD_encoder.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaptXHD_encoder.so \
-    vendor/realme/RMX1941/proprietary/vendor/lib64/libaptX_encoder.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaptX_encoder.so \
     vendor/realme/RMX1941/proprietary/vendor/lib64/libarcsoft_beautyshot.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_beautyshot.so \
     vendor/realme/RMX1941/proprietary/vendor/lib64/libarcsoft_distortion_correction.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_distortion_correction.so \
     vendor/realme/RMX1941/proprietary/vendor/lib64/libarcsoft_dualcam_bokeh_api.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_dualcam_bokeh_api.so \
